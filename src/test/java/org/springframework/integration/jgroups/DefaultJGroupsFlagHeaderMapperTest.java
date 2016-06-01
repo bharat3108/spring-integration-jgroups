@@ -29,7 +29,7 @@ import org.jgroups.Message;
 import org.jgroups.Message.Flag;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.integration.MessageHeaders;
+import org.springframework.messaging.MessageHeaders;
 
 @RunWith(JUnitParamsRunner.class)
 public class DefaultJGroupsFlagHeaderMapperTest {
