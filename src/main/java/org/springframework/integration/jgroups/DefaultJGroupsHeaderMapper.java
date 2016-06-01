@@ -21,7 +21,7 @@ import java.util.Map;
 import org.jgroups.Address;
 import org.jgroups.Message;
 import org.jgroups.Message.Flag;
-import org.springframework.integration.MessageHeaders;
+import org.springframework.messaging.MessageHeaders;
 
 public class DefaultJGroupsHeaderMapper implements JGroupsHeaderMapper {
 
@@ -103,4 +103,5 @@ public class DefaultJGroupsHeaderMapper implements JGroupsHeaderMapper {
 		}
 		return headerValue;
 	}
+
 }
