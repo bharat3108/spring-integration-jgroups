@@ -18,7 +18,7 @@ package org.springframework.integration.jgroups;
 import java.util.Map;
 
 import org.jgroups.Message;
-import org.springframework.integration.MessageHeaders;
+import org.springframework.messaging.MessageHeaders;
 
 public class CustomJGroupsHeaderMapper implements JGroupsHeaderMapper {
 
